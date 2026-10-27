@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'caption';
+    src: url('fonts/PTSerifCaption-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'sans';
+    src: url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #3862EB, #954EEC);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px #243f99c0;
+}
+
+p{
+    text-align: justify;
+    font-family: 'sans',sans-serif;
+}
+
+h1{
+    color: #03CFD6;
+    text-align: center;
+    text-shadow: 1px 1px 2px #017579cc;
+    font-family: 'caption',sans-serif;
+}
+
+h2{
+    color: #F651B1;
+    font-family: 'sans',serif;
+}
