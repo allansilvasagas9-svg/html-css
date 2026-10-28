@@ -29,7 +29,7 @@
 }
 
 body{
-    background-color: #c5ebdc;
+    background-color: var(--cor0);
     font-family:var(--font-padrao)
 }
 
